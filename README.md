@@ -40,21 +40,23 @@
 
 ## 📁 Project Structure
 
-mental_health/
-├── backend/
-│ ├── app.py # Main Flask app
-│ ├── emotion_model.py # LSTM emotion detection logic
-│ ├── sentiment_model.py # BERT sentiment analysis logic
-│ └── utils/ # Feature extraction and preprocessing
-├── frontend/
-│ ├── public/
-│ └── src/
-│ ├── App.js
-│ ├── components/ # UI Components (ChatBot, Diary, etc.)
-│ └── services/ # API handling
-├── saved_models/ # Trained .pt model files
-├── requirements.txt # Python dependencies
-└── README.md
+<pre> mental_health/ 
+  ├── backend/
+  │ ├── app.py # Main Flask app
+  │ ├── emotion_model.py # LSTM emotion detection logic 
+  │ ├── sentiment_model.py # BERT sentiment analysis logic 
+  │ └── utils/ # Feature extraction and preprocessing 
+  ├── frontend/ 
+  │ ├── public/ 
+  │ └── src/ 
+  │ ├── App.js
+  │ ├── components/ # UI Components (ChatBot, Diary, etc.)
+  │ └── services/ # API handling
+  ├── saved_models/ # Trained .pt model files 
+  ├── requirements.txt # Python dependencies
+  └── README.md </pre>
+
+
 
 ---
 
@@ -71,7 +73,7 @@ mental_health/
 
 ### Step 1: Clone the Repository
 
-```bash
+
 git clone https://github.com/Vika0408/helping-minds.git
 cd helping-minds
 
@@ -106,7 +108,10 @@ Fine-Tuning: Using Hugging Face Transformers
 
 
 📷 Screenshots
-![home_screen](https://github.com/user-attachments/assets/1265633f-27d7-4b41-9075-dddd41d5c901)
+
+![home_screen](https://github.com/user-attachments/assets/3897bc37-e904-4dda-a43c-ac10b522412f)
+
+
 ![services](https://github.com/user-attachments/assets/d1eac262-911f-498a-b3f2-63f4ca573d3c)
 
 
