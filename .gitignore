@@ -1,0 +1,44 @@
+# === React ===
+/frontend/node_modules/
+/frontend/build/
+frontend/.env
+
+# === Python & Flask ===
+/backend/venv/
+/backend/__pycache__/
+/backend/*.pyc
+/backend/.env
+backend/*.pth
+
+
+# === VSCode or IDE ===
+.vscode/
+.idea/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+backend/venv/
+
+# Ignore compiled Python files
+__pycache__/
+backend/__pycache__/
+
+# Ignore large model files
+*.pth
+*.pt
+*.h5
+
+# Ignore node_modules from React
+frontend/node_modules/
+
+# Ignore build folders
+frontend/build/
+backend/__pycache__/
+.env
+.DS_Store
+
+frontend/.parcel-cache/
+frontend/.parcel-cache/
